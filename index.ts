@@ -30,7 +30,7 @@ arr(100).map((i) => {
     })
 })
 
-const container = document.getElementById("sigma-canvas") as HTMLCanvasElement
+const container = document.getElementById("sigma-canvas")
 
 new Sigma(graph, container, {
     renderEdgeLabels: true,
