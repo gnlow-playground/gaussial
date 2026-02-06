@@ -3,10 +3,11 @@ import { sample } from "https://esm.sh/@stdlib/stats-base-dists-normal@0.3.0"
 import Graph from "https://esm.sh/graphology@0.26.0"
 import Sigma from "https://esm.sh/sigma@3.0.2"
 
-const arr = (n: number) => [...Array(n).keys()]
+const arr = n => [...Array(n).keys()]
 
 const template = html`
     <div id="app">
+    hi
         <canvas 
             id="sigma-canvas" 
             width="1920" 
